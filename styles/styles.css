@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: 'rock_saltregular';
+    src: 
+         url('../fonts/RockSalt-webfont.woff2') format('woff2'),
+         url('../fonts/RockSalt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
 main{
     max-width: 800px
 }
@@ -14,6 +29,7 @@ nav a{
 }
 
 h1{
+    font-family: 'rock_saltregular', sans-serif;
     color: darkblue;
 }
 
