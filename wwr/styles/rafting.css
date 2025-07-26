@@ -1,7 +1,12 @@
 
 header{
-    background-color: white;
+    background-color: var(--accent1-color);
     color: #A3BAC3;
+display: flex;
+   justify-content: space-between;
+text-decoration: none;
+
+
 }
 :root {
   --primary-color: #0000b8;
@@ -70,6 +75,8 @@ nav, p, section, article {
   background-color:var(--accent2-color);
   padding: 16px;
   opacity: 0.8;
+  flex-direction: row-reverse;
+  
 }
 
 .hero article img {
@@ -77,3 +84,81 @@ nav, p, section, article {
   width: 125px;
   margin-left: 10px;
 }
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav a {
+  display: grid;
+	
+	padding: 1rem;
+	
+  
+}
+
+article {
+display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+article p img {
+  width: 100px;
+  height: auto;
+  margin-right: 16px;
+  display: block;
+  justify-content: flex-end;
+  
+}
+
+footer p{
+  text-align: center;
+  
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  
+}
+
+.hero article h2{
+  flex-direction: row;
+}
+
+
+
+
+.gallery {
+  display: flex;
+ justify-content: space-between;
+  align-items: center;          
+  gap: 8px;
+ 
+  
+  
+}
+.socialmedia p{
+  text-align: center;
+}
+
+.socialmedia a {
+  display: grid;
+
+  
+}
+.socialmedia {
+  display: flex;
+  justify-content:end;
+  gap: 16px;
+  color: var(--accent2-color);
+}
+.history img {
+  float: right;
+}
+
