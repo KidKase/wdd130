@@ -282,3 +282,74 @@ section.employees > h2 {
 
 
 
+
+.adv {
+    text-align: center;
+    background-color: #eef;
+    padding: 2rem;
+}
+.adv .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.trip-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.trip-card {
+    background: var(--accent1-color);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trip-card h3 {
+    margin: 0.5rem 0;
+}
+
+.trip-card p {
+    padding: 0 1rem 1rem;
+}
+
+.trips h2{
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.trip-table th, .trip-table td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+}
+.trip-table th {
+    background: #0077b6;
+    color: white;
+}
+
+.trip-table h2{
+    text-align: center;
+    
+  margin-bottom: 20px;
+}
+
+
+
+
